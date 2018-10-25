@@ -1,0 +1,30 @@
+@import '_functions.scss';
+@import '_variables.scss';
+
+$theme-colors: (
+  primary: #B70C3B
+);
+
+@import 'bootstrap.scss';
+
+.main-color{
+	background-color:#B70C3B;
+}
+.second-color{
+	background-color:#6DAA91;
+}
+.third-color{
+	background-color:#DAC47D;
+}
+#comingsoon{
+	color:black;
+}
+.btn .second-color:hover{
+	background-color:white;
+}
+.card-body{
+	background-color:#fff7e0;
+}
+.accordion{
+	text-align:center;
+}
